@@ -1,0 +1,43 @@
+[
+  {
+    "id": "290",
+    "title": "MV Karnafuly Express",
+    "subtitle": "Luxury River Cruises from Cox's Bazar",
+    "route": "Cox's Bazar - Saint Martin - Cox's Bazar",
+    "slug": "mv-karnafully-express",
+    "amenities": ["Private balconies", "Swimming pool", "BBQ parties", "Restaurant", "WiFi"],
+    "images": "/SHIP/karnafully.png",
+    "bannerImage": "/SHIP/karnafully.png"
+  },
+  {
+    "id": "289",
+    "title": "MV Baro Awlia Ship",
+    "subtitle": "Classic ocean liner with panoramic decks",
+    "route": "Cox's Bazar - Saint Martin - Cox's Bazar",
+    "slug": "mv-baro-awlia-ship",
+    "amenities": ["Formal ballroom", "Panoramic deck", "Satellite television", "Kids club", "Gym"],
+    "images": "/SHIP/baroawlia.png",
+    "bannerImage": "/SHIP/baroawlia.png"
+  },
+  {
+    "id": "293",
+    "title": "MV Bay Cruise One",
+    "subtitle": "Budget-friendly ferry for short island hops",
+    "route": "Cox's Bazar - Saint Martin - Cox's Bazar",
+    "slug": "mv-bay-cruise-one",
+    "amenities": ["Basic seating", "Refreshments stall", "Life jackets"],
+    "images": "/SHIP/baycruiseone.png",
+    "bannerImage": "/SHIP/rzb.jpg"
+  },
+  {
+    "id": "819",
+    "title": "MV Teknaf",
+    "subtitle": "Expedition vessel for nature and heritage tours",
+    "route": "Teknaf - Saint Martin - Teknaf",
+    "slug": "mv-teknaf",
+    "amenities": ["Observation deck", "Naturalist guide", "Small library"],
+    "images": "/SHIP/mvteknag.png",
+    "bannerImage": "/SHIP/SHIP3.jpg"
+
+  }
+]
