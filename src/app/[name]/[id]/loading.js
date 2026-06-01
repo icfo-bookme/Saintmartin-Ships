@@ -1,6 +1,6 @@
 export default function Loading() {
   return (
-  <div className="min-h-screen flex justify-center items-center">
+  <div className="min-h-screen flex justify-center items-center z-50 bg-white">
     <div className="min-h-screen font-sans">
 
       <div className="h-[40vh] sm:h-[50vh] md:h-[60vh] bg-gray-300 animate-pulse" />
@@ -17,9 +17,7 @@ export default function Loading() {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 sm:mb-8">
-          loading.....
-        </h2>
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {[...Array(6)].map((_, i) => (
             <div key={i} className="bg-white rounded-lg shadow-md overflow-hidden animate-pulse">
