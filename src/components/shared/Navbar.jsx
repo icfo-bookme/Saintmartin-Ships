@@ -27,7 +27,7 @@ import ships from "@/data/ships.json";
 
 const BookMeHeader = () => {
   const { id } = useParams();
-  const ship = ships.find((s) => s.id === id);
+  const ship = ships.find((s) => s.id === id) || ships[0]; // Fallback to first ship if not found
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isShipsDropdownOpen, setIsShipsDropdownOpen] = useState(false);
   const mobileMenuRef = useRef(null);
